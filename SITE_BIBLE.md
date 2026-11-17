@@ -84,7 +84,7 @@ Single source of truth. Update at every phase gate; nothing contradicts this fil
 |---|---|---|---|
 | pre-0 scout | n/a | | concept given: portfolio for Shruti Gupta, SEO content writer |
 | 0 research | done | 2026-11-18 | wedge: niche depth + tech literacy; dir: editorial magazine; multi-page HTML/CSS; deploy: gh-pages |
-| 1 positioning | | | |
+| 1 positioning | done | 2026-11-18 | ICP: SaaS/AI/e-com content leads; value prop locked; voice: confident first-person editorial |
 | 2 brand | | | direction: |
 | 3 spec+wireframes | | | approved: |
 | 4 backend | | | |
