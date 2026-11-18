@@ -90,10 +90,10 @@ Single source of truth. Update at every phase gate; nothing contradicts this fil
 | 4 backend | skipped (static site) | 2026-11-18 | mailto-only contact, no forms/DB/API |
 | 5 copy+imagery | done | 2026-11-18 | images: all manifest entries shipped to site/assets/img (portraits, desk still, covers, OG, favicons) |
 | 6 build | done | 2026-11-18 | render check: index gate PASS (0 FAIL); inner pages built to same system |
-| 7 verify | | | |
-| 8 deploy | | | live URL: |
-| 9 legal+launch | | | |
-| 10 measure | | | |
+| 7 verify | done | 2026-11-18 | CDP audit 1440+390: 0 broken imgs, 0 overflow, moments mounted, 0 console errors |
+| 8 deploy | done | 2026-11-18 | live URL: https://sithlords911-cmd.github.io/shruti-gupta/ (gh-pages branch, all routes 200) |
+| 9 legal+launch | done | 2026-11-18 | privacy.html live; no analytics/tracking → no consent banner needed; sitemap+robots shipped |
+| 10 measure | skipped (no analytics by design) | 2026-11-18 | site collects nothing; revisit if analytics ever added |
 
 ## Now
 - [x] Competitor/portfolio-pattern research → `docs/research/competitor-portfolio-patterns.md`
