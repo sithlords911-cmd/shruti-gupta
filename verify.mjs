@@ -75,8 +75,8 @@ for (const p of PAGES) {
   await s.send('Runtime.enable');
   await s.send('Page.enable');
   await s.send('Emulation.setDeviceMetricsOverride', { width: WIDTH, height: HEIGHT, deviceScaleFactor: 1, mobile: WIDTH < 500 });
-  // wait for load + moments settle
-  await sleep(3500);
+  // wait for load + moments settle (emulation override can re-trigger layout)
+  await sleep(5500);
   const r = await s.send('Runtime.evaluate', { expression: AUDIT, returnByValue: true });
   const errors = s.events.filter(e => e.method === 'Runtime.exceptionThrown' || (e.method === 'Runtime.consoleAPICalled' && e.params.type === 'error'));
   const out = JSON.parse(r.result?.result?.value || '{}');
