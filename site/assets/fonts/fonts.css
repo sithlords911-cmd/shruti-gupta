@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('instrument-serif-normal-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Instrument Serif';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('instrument-serif-italic-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Instrument Sans';
+  font-style: normal;
+  font-weight: 400 600;
+  font-stretch: 75% 100%;
+  font-display: swap;
+  src: url('instrument-sans-normal-400-75.woff2') format('woff2');
+}
+:root {
+  --font-display: 'Instrument Serif', Georgia, serif;
+  --font-text: 'Instrument Sans', system-ui, sans-serif;
+}
+.accent { color: var(--p-accent, #7a2e1f); }
+.ly-pic img { border-radius: 8px; }
+.band-img { display: block; width: 100%; aspect-ratio: 21 / 8; object-fit: cover; border-radius: var(--r-lg, 12px); }
+.prose p { margin: 0 0 1.1em; max-width: 62ch; }
+.prose p:last-child { margin-bottom: 0; }
+.tagrow { display: flex; flex-wrap: wrap; gap: 10px; }
+.tag { font-size: var(--t-small, 14px); color: var(--p-muted, #6d6858); border: 1px solid var(--line, #ddd6c8); border-radius: 999px; padding: 6px 14px; }
+.stat-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: var(--s-6, 32px); }
+.stat-grid .stat > p:last-child { font-size: var(--t-small, 14px); color: var(--muted, #6d6858); margin-top: 8px; }
+@media (max-width: 767px) { .stat-grid { grid-template-columns: repeat(2, 1fr); } }
+.group-label { font-family: var(--font-display); font-size: var(--t-h3, 24px); margin: var(--s-7, 40px) 0 var(--s-4, 16px); }
+.group-label:first-of-type { margin-top: 0; }
+.group-note { font-size: var(--t-small, 14px); color: var(--muted, #6d6858); margin-bottom: var(--s-4, 16px); }
+.edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--s-6, 32px); }
+@media (max-width: 767px) { .edu-grid { grid-template-columns: 1fr; } }
+.close-meta { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--s-6, 32px); margin-top: var(--s-7, 40px); }
+.close-meta .stat > p:last-child { font-size: var(--t-small, 14px); color: var(--muted, #6d6858); margin-top: 8px; }
+@media (max-width: 767px) { .close-meta { grid-template-columns: 1fr; gap: var(--s-5, 24px); } }
+.legal-prose { max-width: 68ch; }
+.legal-prose h2 { font-size: var(--t-h3, 24px); margin: var(--s-7, 40px) 0 var(--s-3, 12px); }
+.legal-prose h2:first-of-type { margin-top: 0; }
+.legal-prose p, .legal-prose li { margin: 0 0 1em; }
+.legal-prose ul { padding-left: 1.2em; }
+.work-rows a.rows__name { text-decoration: none; color: inherit; }
+.work-rows a.rows__name:hover { color: var(--p-accent, #7a2e1f); }
+.work-rows .rows__value { white-space: nowrap; }
+@media (max-width: 767px) {
+  .work-rows .rows__value { display: block; margin-top: 4px; }
+}
+figure.portrait-plate { margin: 0; border-radius: var(--r-lg, 12px); overflow: hidden; }
+figure.portrait-plate img { display: block; width: 100%; height: 100%; object-fit: cover; aspect-ratio: 4 / 5; }
+.page-head { padding-top: var(--padt, 160px); }
+.chip-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { font-size: var(--t-small, 14px); color: var(--p-ink, #1b1814); border: 1px solid var(--line, #ddd6c8); border-radius: var(--r-sm, 6px); padding: 6px 12px; }
+.frame-photo { border-radius: var(--r-lg, 12px); overflow: hidden; }
+.frame-photo img { display: block; width: 100%; height: 100%; object-fit: cover; }
+.frame-photo--wide img { aspect-ratio: 16 / 7; }
+.frame-photo--tall img { aspect-ratio: 4 / 5; }
+.toc { font-size: var(--t-small, 14px); color: var(--muted, #6d6858); }
+.toc a { color: inherit; }
+.toc a:hover { color: var(--p-accent, #7a2e1f); }
+.sample-meta { display: flex; flex-wrap: wrap; gap: 6px 16px; font-size: var(--t-small, 14px); color: var(--muted, #6d6858); margin-top: 6px; }
+.sample-card { padding: var(--s-5, 24px) 0; border-bottom: 1px solid var(--line, #ddd6c8); }
+.sample-card h3 { font-size: var(--t-h3, 24px); margin: 0 0 8px; }
+.sample-card p { margin: 0; max-width: 60ch; color: var(--muted, #6d6858); }
+.sample-card .sample-links { margin-top: 12px; display: flex; gap: 16px; }
+.sample-card .sample-links a { font-size: var(--t-small, 14px); }
+.sample-pending { font-style: italic; }
+@media (max-width: 767px) {
+  .work-rows .rows { font-size: var(--t-small, 14px); }
+}

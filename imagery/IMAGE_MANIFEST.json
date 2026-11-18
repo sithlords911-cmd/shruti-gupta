@@ -1,0 +1,51 @@
+{
+  "manifest": "shruti-gupta-portfolio",
+  "generated_by": "phase-3 seed",
+  "images": [
+    {
+      "id": "portrait-hero",
+      "purpose": "Home hero portrait plate \u2014 cutout composited on paperTint",
+      "source": "user-asset",
+      "src": "imagery/raw/user-assets/photo2_nobg.png",
+      "size": "520x640",
+      "alt": "Shruti Gupta, SEO content writer",
+      "status": "pending-optimize"
+    },
+    {
+      "id": "portrait-about",
+      "purpose": "About page portrait plate",
+      "source": "user-asset",
+      "src": "imagery/raw/user-assets/photo1_nobg.png",
+      "size": "520x640",
+      "alt": "Shruti Gupta",
+      "status": "pending-optimize"
+    },
+    {
+      "id": "still-desk",
+      "purpose": "About page quiet divider band \u2014 editorial still-life (desk, paper, pen, warm side light)",
+      "source": "generated",
+      "prompt": "overhead editorial still-life photograph of a writer's desk: warm off-white paper sheets, a fountain pen, reading glasses, soft natural side light, muted cream and warm brown palette with a hint of deep oxblood, quiet magazine aesthetic, matte, subtle film grain, generous negative space",
+      "seed": 4217,
+      "size": "1600x640",
+      "file": "imagery/raw/still-desk.jpg",
+      "alt": "",
+      "status": "done",
+      "seed_used": 4217
+    },
+    {
+      "id": "og-card",
+      "purpose": "Open Graph / social share card \u2014 composed HTML render",
+      "source": "html-render",
+      "size": "1200x630",
+      "file": "imagery/raw/og-card.png",
+      "status": "pending"
+    },
+    {
+      "id": "favicon",
+      "purpose": "favicon set \u2014 SVG + PNG fallbacks",
+      "source": "svg",
+      "src": "brand/favicon.svg",
+      "status": "pending-optimize"
+    }
+  ]
+}

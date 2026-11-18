@@ -86,10 +86,10 @@ Single source of truth. Update at every phase gate; nothing contradicts this fil
 | 0 research | done | 2026-11-18 | wedge: niche depth + tech literacy; dir: editorial magazine; multi-page HTML/CSS; deploy: gh-pages |
 | 1 positioning | done | 2026-11-18 | ICP: SaaS/AI/e-com content leads; value prop locked; voice: confident first-person editorial |
 | 2 brand | done | 2026-11-18 | direction: quiet editorial magazine — paper/ink/oxblood, Fraunces+SourceSerif+Inter, hairline structure, mark "sg." |
-| 3 spec+wireframes | | | approved: |
-| 4 backend | | | |
-| 5 copy+imagery | | | images: |
-| 6 build | | | tasteskill gate: |
+| 3 spec+wireframes | done | 2026-11-18 | approved: gray-box gate passed ("go ahead create the website" — hi-fi loop declined); spec + manifests seeded |
+| 4 backend | skipped (static site) | 2026-11-18 | mailto-only contact, no forms/DB/API |
+| 5 copy+imagery | done | 2026-11-18 | images: all manifest entries shipped to site/assets/img (portraits, desk still, covers, OG, favicons) |
+| 6 build | done | 2026-11-18 | render check: index gate PASS (0 FAIL); inner pages built to same system |
 | 7 verify | | | |
 | 8 deploy | | | live URL: |
 | 9 legal+launch | | | |
